@@ -93,7 +93,7 @@ const App = () => {
             Markers
             {markers.map((cord, i) => (
             <div key={i}>
-              {cord.latitude} - {cord.longitude}
+              {cord.location[0]} - {cord.location[1]}
             </div>
           ))}
           </div>}
